@@ -1,6 +1,17 @@
 from django.urls import path
+from rest_framework import routers
 from rest_framework_simplejwt import views as jwt_views
 from .views import ObtainTokenPairWithColorView, CustomUserCreate
+from esports_app import views
+from esports_app.views import MatchViewSet, PlayerViewSet, TeamViewSet, HeroViewSet, Hero_player_matchesViewSet, Match_score
+
+router = routers.DefaultRouter()
+router.register(r'Match', views.MatchViewSet)
+router.register(r'Team', views.MatchViewSet)
+router.register(r'Player', views.PlayerViewSet)
+router.register(r'Hero', views.MatchViewSet)
+router.register(r'Hero_player_matches', Hero_player_matchesViewSet)
+router.register(r'match_score', views.Match_scoreViewSet)
 
 urlpatterns = [
     path('user/create/', CustomUserCreate.as_view(), name="create_user"),
