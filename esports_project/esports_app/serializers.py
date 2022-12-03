@@ -8,7 +8,11 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     def get_token(cls, user):
         token = super(MyTokenObtainPairSerializer, cls).get_token(user)
         
-        token['fav_color'] = user.fav_color
+        token['username'] = user.username
+        token['first_name'] = user.first_name
+        token['last_name'] = user.last_name
+        
+
         return token
 
 class CustomUserSerializer(serializers.ModelSerializer):
@@ -21,7 +25,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CustomUser
-        fields = ('email', 'username', 'password')
+        fields = ('email', 'username', 'password', 'first_name', 'last_name' )
         extra_kwargs = {'password': {'write_only': True}}
 
     def create(self, validated_data):
