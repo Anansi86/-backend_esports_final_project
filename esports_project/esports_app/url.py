@@ -7,11 +7,11 @@ from esports_app.views import MatchViewSet, PlayerViewSet, TeamViewSet, HeroView
 
 router = routers.DefaultRouter()
 router.register(r'Match', views.MatchViewSet)
-router.register(r'Team', views.MatchViewSet)
+router.register(r'Team', views.TeamViewSet)
 router.register(r'Player', views.PlayerViewSet)
-router.register(r'Hero', views.MatchViewSet)
+router.register(r'Hero', views.HeroViewSet)
 router.register(r'Hero_player_matches', Hero_player_matchesViewSet)
-router.register(r'match_score', views.Match_scoreViewSet)
+router.register(r'Match_score', views.Match_scoreViewSet)
 
 urlpatterns = [
     path('user/create/', CustomUserCreate.as_view(), name="create_user"),

@@ -8,6 +8,7 @@ class CustomUser(AbstractUser):
 class Team(models.Model):
     name = models.CharField(max_length=25, blank=False, unique=True)
     icon = models.URLField()
+    users = models.ManyToManyField(CustomUser, related_name="teams")
 
     def __str__(self):
         return self.name
@@ -22,7 +23,7 @@ class Match(models.Model):
     team2 = models.ForeignKey(Team, on_delete=models.SET_NULL, null=True, related_name="Team2")
     status = models.IntegerField()
     score = models.ForeignKey('Match_score', on_delete=models.SET_NULL, null=True, related_name="score") # '' because Match_score is after match
-
+    users = models.ManyToManyField(CustomUser, related_name="matches")
 def __str__(self):
         return self.created
 
