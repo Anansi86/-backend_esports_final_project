@@ -68,3 +68,8 @@ class Hero_player_matchesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Hero_player_matches
         fields = "__all__"
+
+# class CustomUserSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Player
+#         fields = "__all__"

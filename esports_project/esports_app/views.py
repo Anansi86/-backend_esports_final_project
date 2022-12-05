@@ -24,6 +24,11 @@ class CustomUserCreate(APIView):
                 return Response(json, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+# class CustomUser(viewsets.ModelViewSet):
+#     serializer_class = CustomUserSerializer
+#     queryset = CustomUser.objects.all().order_by("username")
+    
+
 class MatchViewSet(viewsets.ModelViewSet):
     serializer_class = MatchSerializer
     queryset = Match.objects.all().order_by("created")

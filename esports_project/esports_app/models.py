@@ -22,10 +22,10 @@ class Match(models.Model):
     team1 = models.ForeignKey(Team,on_delete=models.SET_NULL, null=True, related_name="Team1")
     team2 = models.ForeignKey(Team, on_delete=models.SET_NULL, null=True, related_name="Team2")
     status = models.IntegerField()
-    score = models.ForeignKey('Match_score', on_delete=models.SET_NULL, null=True, related_name="score") # '' because Match_score is after match
     users = models.ManyToManyField(CustomUser, related_name="matches")
+
 def __str__(self):
-        return self.created
+        return str(self.created)
 
 class Player(models.Model):
     player_name = models.CharField(max_length=25, blank=False, unique=True)
@@ -54,12 +54,12 @@ class Hero_player_matches(models.Model):
     points = models.IntegerField()
 
     def __str__(self):
-        return self.points
+        return str(self.points)
 
 class Match_score(models.Model):
-    match_id = models.ForeignKey(Match, on_delete=models.SET_NULL, null=True, related_name="scores")
+    match = models.ForeignKey(Match, on_delete=models.SET_NULL, null=True, related_name="scores")
     team1_score = models.IntegerField()
     team2_score = models.IntegerField()
 
     def __str__(self):
-        return self.match_id
+        return str(self.match.id)
