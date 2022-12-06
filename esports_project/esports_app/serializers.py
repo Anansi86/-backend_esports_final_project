@@ -61,7 +61,7 @@ class PlayerSerializer(serializers.ModelSerializer):
 
 class HeroSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Player
+        model = Hero
         fields = "__all__"
 
 class Hero_player_matchesSerializer(serializers.ModelSerializer):

@@ -16,8 +16,8 @@ class Team(models.Model):
 class Match(models.Model):
     win = models.CharField(max_length=25, blank=False, unique=True)
     video_url = models.TextField()
-    created = models.DateTimeField()
-    updated = models.DateTimeField()
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField()
     team1 = models.ForeignKey(Team,on_delete=models.SET_NULL, null=True, related_name="Team1")
     team2 = models.ForeignKey(Team, on_delete=models.SET_NULL, null=True, related_name="Team2")
