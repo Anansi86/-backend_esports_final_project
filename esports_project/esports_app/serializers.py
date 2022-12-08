@@ -40,23 +40,14 @@ class CustomUserSerializer(serializers.ModelSerializer):
             instance.save()
         return instance
 
-class TeamSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Team
-        fields = "__all__"
-
-class MatchSerializer(serializers.ModelSerializer):
-    team1 = TeamSerializer()
-    team2 = TeamSerializer()
-    scores = Match_scoreSerializer(many=True)
-    class Meta:
-            model = Match
-            fields = "__all__"
-
-
 class PlayerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
+        fields = "__all__"
+
+class TeamSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Team
         fields = "__all__"
 
 class HeroSerializer(serializers.ModelSerializer):
@@ -68,6 +59,14 @@ class Hero_player_matchesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Hero_player_matches
         fields = "__all__"
+
+class MatchSerializer(serializers.ModelSerializer):
+    team1 = TeamSerializer()
+    team2 = TeamSerializer()
+    scores = Match_scoreSerializer(many=True)
+    class Meta:
+            model = Match
+            fields = "__all__"
 
 # class CustomUserSerializer(serializers.ModelSerializer):
 #     class Meta:
