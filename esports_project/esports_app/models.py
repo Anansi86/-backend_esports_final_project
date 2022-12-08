@@ -7,7 +7,7 @@ class CustomUser(AbstractUser):
 
 class Team(models.Model):
     name = models.CharField(max_length=25, blank=False, unique=True)
-    icon = models.URLField()
+    icon = models.URLField(max_length=200)
     users = models.ManyToManyField(CustomUser, related_name="teams")
 
     def __str__(self):
