@@ -14,15 +14,17 @@ class Team(models.Model):
         return self.name
 
 class Match(models.Model):
-    win = models.CharField(max_length=25, blank=False, unique=True)
+    win = models.CharField(max_length=25, blank=False, null=False)
     video_url = models.TextField()
+    game_date = models.DateField(null=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField()
-    team1 = models.ForeignKey(Team,on_delete=models.SET_NULL, null=True, related_name="Team1")
+    team1 = models.ForeignKey(Team, on_delete=models.SET_NULL, null=True, related_name="Team1")
     team2 = models.ForeignKey(Team, on_delete=models.SET_NULL, null=True, related_name="Team2")
     status = models.IntegerField()
     users = models.ManyToManyField(CustomUser, related_name="matches")
+    
 
 def __str__(self):
         return str(self.created)
@@ -31,7 +33,7 @@ class Player(models.Model):
     player_name = models.CharField(max_length=25, blank=False, unique=True)
     alias_name = models.CharField(max_length=25, blank=False, unique=True)
     player_num = models.IntegerField()
-    hometown = models.CharField(max_length=25, blank=False, unique=True)
+    hometown = models.CharField(max_length=25, blank=False, unique=False)
     pic = models.URLField()
     team = models.ManyToManyField(Team, related_name='players')
     total_damage = models.IntegerField(null=True)
@@ -65,4 +67,7 @@ class Match_score(models.Model):
     team2_score = models.IntegerField()
 
     def __str__(self):
-        return str(self.match.id)
+        if self.match is None:
+            return "No Match"
+        else:
+            return str(self.match.id)
