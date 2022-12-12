@@ -34,6 +34,9 @@ class Player(models.Model):
     hometown = models.CharField(max_length=25, blank=False, unique=True)
     pic = models.URLField()
     team = models.ManyToManyField(Team, related_name='players')
+    total_damage = models.IntegerField(null=True)
+    total_eliminations = models.IntegerField(null=True)
+    total_deaths = models.IntegerField(null=True)
 
     def __str__(self):
         return self.player_name

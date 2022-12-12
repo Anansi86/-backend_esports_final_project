@@ -1,0 +1,1906 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-12-04T19:44:23.635Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Gladiators",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-12-04T19:44:42.843Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Spitfire",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-12-04T20:02:52.429Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Match object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-12-04T20:20:58.668Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-12-06T00:49:37.080Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Match object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-12-06T12:07:32.502Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Reinhardt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-12-06T12:09:07.793Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Soldier76",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-12-06T13:23:42.775Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Soldier76",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-12-06T13:24:40.886Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Soldier76",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-12-06T14:02:22.654Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Reinhardt",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Character img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-12-06T14:02:50.044Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Soldier76",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Character img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-12-06T16:35:54.445Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "D. Va",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-12-06T16:36:27.665Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "D. Va",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Character img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-12-06T18:12:02.048Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Atlanta Reign",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-12-06T18:14:27.139Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Boston Uprising",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-12-06T18:33:28.007Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Boston Uprising",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-12-06T18:39:59.697Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Atlanta Reign",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-12-06T18:54:06.290Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Match object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-12-06T21:04:43.169Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Chengdu Hunters",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-12-06T21:24:18.765Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Dallas Fuel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-12-06T21:31:15.176Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Florida Mayhem",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-12-06T21:39:29.972Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Dallas Fuel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-12-06T21:48:41.780Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Guangzhou Charge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-12-06T22:57:50.152Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Hangzhou Spark",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-12-07T12:59:01.379Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Hangzhou Spark",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-12-07T13:10:13.968Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Hangzhou Spark",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-12-07T13:16:21.151Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Hangzhou Spark",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-12-07T13:30:39.265Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Houston Outlaws",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-12-07T13:32:57.436Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "Los Angeles Valiant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-12-07T13:34:47.547Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "New York Excelsior",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-12-07T13:36:45.178Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Paris Eternal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-12-07T13:38:39.394Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Philadelphia Fusion",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-12-07T13:39:37.602Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Philadelphia Fusion",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-12-07T13:41:26.471Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Philadelphia Fusion",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-12-07T13:51:07.117Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "San Francisco Shock",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-12-07T14:00:06.194Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Seoul Dynasty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-12-07T14:09:01.426Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Seoul Dynasty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-12-07T14:12:37.486Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Shanghai Dragons",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-12-07T14:52:39.543Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Toronto Defiant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-12-07T14:53:53.140Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Toronto Defiant",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-12-07T14:55:05.816Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Toronto Defiant",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-12-07T14:55:54.040Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Toronto Defiant",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-12-07T14:58:36.934Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-12-07T15:00:10.139Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-12-07T15:02:42.934Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-12-07T15:03:52.442Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-12-07T15:06:23.433Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-12-07T15:09:02.228Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-12-07T15:09:57.822Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Vancouver Titans",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-12-07T15:11:42.927Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "Washington Justice",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-12-08T11:22:40.951Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "John Sams",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 6,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 6,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 6,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 6,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 7,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 7,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 7,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 7,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add token",
+        "content_type": 8,
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change token",
+        "content_type": 8,
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete token",
+        "content_type": 8,
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view token",
+        "content_type": 8,
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add match",
+        "content_type": 9,
+        "codename": "add_match"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change match",
+        "content_type": 9,
+        "codename": "change_match"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete match",
+        "content_type": 9,
+        "codename": "delete_match"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view match",
+        "content_type": 9,
+        "codename": "view_match"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add player",
+        "content_type": 10,
+        "codename": "add_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change player",
+        "content_type": 10,
+        "codename": "change_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete player",
+        "content_type": 10,
+        "codename": "delete_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view player",
+        "content_type": 10,
+        "codename": "view_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add team",
+        "content_type": 11,
+        "codename": "add_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change team",
+        "content_type": 11,
+        "codename": "change_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete team",
+        "content_type": 11,
+        "codename": "delete_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view team",
+        "content_type": 11,
+        "codename": "view_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add hero",
+        "content_type": 12,
+        "codename": "add_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change hero",
+        "content_type": 12,
+        "codename": "change_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete hero",
+        "content_type": 12,
+        "codename": "delete_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view hero",
+        "content_type": 12,
+        "codename": "view_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add hero_player_matches",
+        "content_type": 13,
+        "codename": "add_hero_player_matches"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change hero_player_matches",
+        "content_type": 13,
+        "codename": "change_hero_player_matches"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete hero_player_matches",
+        "content_type": 13,
+        "codename": "delete_hero_player_matches"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view hero_player_matches",
+        "content_type": 13,
+        "codename": "view_hero_player_matches"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add match_score",
+        "content_type": 14,
+        "codename": "add_match_score"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change match_score",
+        "content_type": 14,
+        "codename": "change_match_score"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete match_score",
+        "content_type": 14,
+        "codename": "delete_match_score"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view match_score",
+        "content_type": 14,
+        "codename": "view_match_score"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "tokenproxy"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "match"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "player"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "team"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "hero"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "hero_player_matches"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "esports_app",
+        "model": "match_score"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "656e41bjmg75cdxt578tlndo4kh1u4k9",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgMjAu3fcMZGCoVA0kpV0Z765NutDtf-_9lwi0rSVsPS9hZnERWpx-t0jpkesO-E711mRqdV3mKHdFHrTLsXF-Xg_376BQL98aUdHEBi05jZAoWocarI6KU56sUeD9gAoMRkgc9eAByeXhnAxo5izeH9ECN4E:1p3Hew:VWG4tZ7F1kwfkzU7FP78oXiLPmVY1HFxeH3s4ysNYGo",
+        "expire_date": "2022-12-22T14:13:58.256Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xbl4nzdxzk0hk4owd16nj5hdvdnwhm2q",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgMjAu3fcMZGCoVA0kpV0Z765NutDtf-_9lwi0rSVsPS9hZnERWpx-t0jpkesO-E711mRqdV3mKHdFHrTLsXF-Xg_376BQL98aUdHEBi05jZAoWocarI6KU56sUeD9gAoMRkgc9eAByeXhnAxo5izeH9ECN4E:1p1AXi:AVug2Scj15Zuu6z0Dg8Ip49AdX8oSVbsigRT5hv4CGY",
+        "expire_date": "2022-12-16T18:13:46.787Z"
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$qPoRcL9w07VALAmjy1yY2f$Jvbj0X1ZlA+VzAfbr/8rqGHW6kPrbodEOpSyk5iyizM=",
+        "last_login": "2022-12-08T14:13:58.252Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "s.albert.staton@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-02T14:05:53.833Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$lqLRWhPf0mAE8X2RoMgTsI$Tbdrb9KRktBRCwVYrTWsqN1uraqG66/2Dvu8d75zVHo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "xbutton86",
+        "first_name": "Jon",
+        "last_name": "snow",
+        "email": "hia@hi.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-04T18:33:24.367Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 20,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$uZ9b75v0WYqHhBv8KEgW2N$qhMd8bP/XMBwueukEldlrgSK9zuAgwz5OCl01W0Gr9w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "anansi",
+        "first_name": "jimmy",
+        "last_name": "corn",
+        "email": "h20@water.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-04T18:38:34.640Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 21,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$85MHiVQvJ2GozusCUL8Wsw$ZP0lbyOAXnpvhRk3IjzJe8mO1HwTTdNLOaiWo5hRR/k=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "valant",
+        "first_name": "tom",
+        "last_name": "cat",
+        "email": "h2o@water.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-04T18:48:19.524Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$SZkfg2xwRenlqowipXeitF$mLC+OFGVl2M1CXd3kfcfGGJa8W4uHdNDcOO5UsUnA54=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "jack",
+        "first_name": "jackie",
+        "last_name": "johns",
+        "email": "jako@jako.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-04T19:04:41.918Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 23,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$xaxWEvnm5PAgDSLNW23prQ$cQgI5hp2lUFFTjDfuTpuKeqm0/lynSU00SdMWBsnE4I=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Spider",
+        "first_name": "Sean",
+        "last_name": "Stanton",
+        "email": "sider@web.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-04T19:37:46.607Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 24,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$zmyVAFthLAXJBaZOkATTdL$xc/xZUIWs155ffasi2vylfwoG80GidmGxvIDbEDXs4s=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Superman",
+        "first_name": "Clark",
+        "last_name": "Kent",
+        "email": "fly@earth.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-05T07:31:41.384Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 25,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$B1PqW9H1PvbYq1Lw0fo4ia$8dJRS5HgWWuLrHc18X96IACtaXa+anv0g6qfj8tW5fY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Bananna",
+        "first_name": "Ban",
+        "last_name": "Nanna",
+        "email": "yellow@yellow.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-06T15:42:15.034Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 26,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$oBncfJctHP5sQMK7AjcctO$fFKi7qKSgU4RZsE4rX0Yjunl6U9wab/nT9Uqdyh69CA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Spiderman",
+        "first_name": "Peter",
+        "last_name": "Parker",
+        "email": "Web.web@web.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-06T16:14:50.977Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 27,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$lYLNZCY3Ur0KIu5XTLpFiL$FO7aom/OKDcr4wTVOdiYAFOvN9vDW6Fwuf881EumABM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "steven",
+        "first_name": "Steven",
+        "last_name": "Barnett",
+        "email": "steven.abarnett@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-06T16:43:26.749Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 28,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$uui19zGtJG4t99oTuIuFTX$wwIcN7RU3oURoP55sbiACuvB3c7N9qwtGuiUevl1Jfw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "SuperAlex",
+        "first_name": "Alex",
+        "last_name": "Galvin",
+        "email": "up@up.up",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-06T21:35:24.131Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 29,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$F8k2CDgSaKMpQurY2ivPAV$wADTZXD5R6q9KkLKh6Tr6xHgu7bajhXgoiK1wAh/V1k=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Naod",
+        "first_name": "nod",
+        "last_name": "yes",
+        "email": "awe@some.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-07T18:19:05.842Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 30,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$EJYMRKU04gGHdMKMbjMRDl$rYz+jHkiNdyFGmKVrWQaTtTzPQfa1tKxQF0+v/oeZuA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Bishamon",
+        "first_name": "Bishamon",
+        "last_name": "Dean",
+        "email": "naturesflame@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-07T19:17:53.613Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 31,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$QMGOhm3shpkPIMu3BWwCru$bQ9ct+bmEZuqCb1ibM4g0Aq+C9rOFjBhVGV80Nb+dFo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Monty",
+        "first_name": "Morgan",
+        "last_name": "Montague",
+        "email": "morgan@test.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-07T19:23:05.041Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 33,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$fYoakvip4UKIxZrf4oJvOQ$VewyEDUATmXh/GB+blGtON2CyQ939FKHjoV/bfYK0vo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "steven2",
+        "first_name": "steven",
+        "last_name": "b",
+        "email": "steven@email.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-07T19:37:49.008Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.customuser",
+    "pk": 34,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$FARGLFHvI7g7MaFLa8hy9C$4e4YgK+zvJ8wHgp/pkpTt1eQVdj9lL7CMhDpzI0Ri/4=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin2",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-08T14:13:07.973Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 1,
+    "fields": {
+        "name": "Gladiators",
+        "icon": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7f8d7ee4780f5d6b/5cde0aeba408243c113cc754/HU1A12H9JPNS1512520986367.svg?auto=webp\"",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 2,
+    "fields": {
+        "name": "Spitfire",
+        "icon": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blta30a9da99423c6b8/5cdf0fb12117e47006633127/HCS229B4DP021507822883016.svg?auto=webp",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 3,
+    "fields": {
+        "name": "Atlanta Reign",
+        "icon": "https://static.wikia.nocookie.net/overwatch/images/5/53/AtlantaReignLogo.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 4,
+    "fields": {
+        "name": "Boston Uprising",
+        "icon": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/6a/Boston_Uprising.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 5,
+    "fields": {
+        "name": "Chengdu Hunters",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Chengdu_Hunters_logo.svg/1200px-Chengdu_Hunters_logo.svg.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 6,
+    "fields": {
+        "name": "Florida Mayhem",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Florida_Mayhem_logo.svg/1200px-Florida_Mayhem_logo.svg.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 7,
+    "fields": {
+        "name": "Dallas Fuel",
+        "icon": "https://www.nicepng.com/png/detail/28-287866_dallas-fuel-logo-no-text-overwatch-dallas-fuel.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 8,
+    "fields": {
+        "name": "Guangzhou Charge",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Guangzhou_Charge_logo.svg/281px-Guangzhou_Charge_logo.svg.png?20190713134135",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 9,
+    "fields": {
+        "name": "Hangzhou Spark",
+        "icon": "https://www.kindpng.com/picc/m/552-5520549_hangzhou-spark-hd-png-download.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 10,
+    "fields": {
+        "name": "Houston Outlaws",
+        "icon": "https://static.wikia.nocookie.net/overwatch/images/c/c4/HoustonOutlaws-logo_OWL.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 11,
+    "fields": {
+        "name": "Los Angeles Valiant",
+        "icon": "https://www.pngitem.com/pimgs/m/29-299227_los-angeles-valiant-logo-hd-png-download.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 12,
+    "fields": {
+        "name": "New York Excelsior",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/New_York_Excelsior_%28logo%29.svg/1200px-New_York_Excelsior_%28logo%29.svg.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 13,
+    "fields": {
+        "name": "Paris Eternal",
+        "icon": "https://p.kindpng.com/picc/s/136-1365669_overwatch-league-paris-eternal-hd-png-download.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 14,
+    "fields": {
+        "name": "Philadelphia Fusion",
+        "icon": "https://www.thesportsdb.com/images/media/team/badge/bwp37y1581451910.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 15,
+    "fields": {
+        "name": "San Francisco Shock",
+        "icon": "https://static.wikia.nocookie.net/overwatch/images/9/9a/SanFranciscoShock-Logo_OWL.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 16,
+    "fields": {
+        "name": "Seoul Dynasty",
+        "icon": "https://e7.pngegg.com/pngimages/955/279/png-clipart-seoul-dynasty-houston-outlaws-shanghai-dragons-2018-overwatch-league-season-2018-overwatch-league-season-logo-dynasty-thumbnail.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 17,
+    "fields": {
+        "name": "Shanghai Dragons",
+        "icon": "https://www.pngitem.com/pimgs/m/461-4611830_shanghai-dragons-overwatch-overwatch-shanghai-dragons-hd-png.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 18,
+    "fields": {
+        "name": "Toronto Defiant",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Toronto_Defiant_logo.svg/1200px-Toronto_Defiant_logo.svg.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 19,
+    "fields": {
+        "name": "Vancouver Titans",
+        "icon": "https://toppng.com/uploads/preview/vancouver-titans-overwatch-league-team-logo-vancouver-titans-logo-11563027901zh0uw2xpza.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.team",
+    "pk": 20,
+    "fields": {
+        "name": "Washington Justice",
+        "icon": "https://static.wikia.nocookie.net/overwatch/images/3/3b/WashingtonJusticeLogo.png",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.match",
+    "pk": 1,
+    "fields": {
+        "win": "Gladiators",
+        "video_url": "https://youtu.be/F1ashRz_9is",
+        "created": "2022-12-04T19:46:08Z",
+        "updated": "2022-12-04T19:46:11Z",
+        "team1": 1,
+        "team2": 2,
+        "status": 1,
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.match",
+    "pk": 2,
+    "fields": {
+        "win": "Spitfire",
+        "video_url": "https://www.youtube.com/watch?v=_Uj-krTQzfI&ab_channel=OverwatchLeague",
+        "created": "2022-12-06T00:49:37.075Z",
+        "updated": "2022-12-06T00:49:37.075Z",
+        "team1": 2,
+        "team2": 1,
+        "status": 2,
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.match",
+    "pk": 3,
+    "fields": {
+        "win": "Boston Uprising",
+        "video_url": "https://www.youtube.com/watch?v=7wbQCVpENhQ&ab_channel=OverwatchLeague",
+        "created": "2022-12-06T18:54:06.285Z",
+        "updated": "2022-12-06T18:54:06.285Z",
+        "team1": 4,
+        "team2": 3,
+        "status": 1,
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "esports_app.player",
+    "pk": 1,
+    "fields": {
+        "player_name": "John Sams",
+        "alias_name": "Richter",
+        "player_num": 24,
+        "hometown": "oakland",
+        "pic": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt13152fb45f62231b/6274415cda5a7125ed7522b8/WAS_VIGILANTE_22.png",
+        "team": [
+            3
+        ]
+    }
+},
+{
+    "model": "esports_app.hero",
+    "pk": 1,
+    "fields": {
+        "name": "Reinhardt",
+        "character_img": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/3/3b/Reinhardt-ow2-portrait.png",
+        "main_attack": "Hammer Swing",
+        "special_attack": "Earthshatter"
+    }
+},
+{
+    "model": "esports_app.hero",
+    "pk": 2,
+    "fields": {
+        "name": "Soldier76",
+        "character_img": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/7/75/S76_Skin_Overwatch_2.png",
+        "main_attack": "Heavy Pulse Rifle",
+        "special_attack": "Tactical Visor"
+    }
+},
+{
+    "model": "esports_app.hero",
+    "pk": 3,
+    "fields": {
+        "name": "D. Va",
+        "character_img": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/1/1a/OW2_Dva.png",
+        "main_attack": "Fusion Cannons",
+        "special_attack": "Self-Destruct"
+    }
+},
+{
+    "model": "esports_app.match_score",
+    "pk": 8,
+    "fields": {
+        "match": 1,
+        "team1_score": 2,
+        "team2_score": 5
+    }
+}
+]
